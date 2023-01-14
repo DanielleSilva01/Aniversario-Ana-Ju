@@ -1,0 +1,138 @@
+body,
+html {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(196, 181, 211) !important;
+    height: 100%;
+}
+
+/*menu */
+
+nav li{
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10%;
+    font-size: 3ex;
+}
+
+nav{
+    top: 0%;
+    background-color: rgb(134, 107, 161);
+    padding: 3px;
+    margin-bottom: 4%;
+}
+
+nav li,
+nav h2,
+nav p,
+nav div {
+    display: inline-block;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(78, 54, 102);
+    text-decoration: overline;
+}
+
+/*familia de cactos */
+
+#entrar img {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    width: 6%;
+    height: 10%;
+}
+
+
+
+img[alt="perfil"] {
+    animation: flutuando .4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes flutuando {
+    from {
+        top: 10;
+    }
+    to {
+        top: 30px;
+    }
+}
+/*canto da tela */
+
+#NomeSite {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 170%;
+    padding-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#NomeSite:hover {
+    transform: scale(1.2);
+}
+
+/*inicio*/
+
+#img1{
+    float: right;
+  margin-right: 10px;
+}
+
+#img2{
+    float: left;
+  margin-right: 10px;
+}
+#nome, p{
+    text-align: center;
+}
+
+.primeira-letra:first-of-type::first-letter{
+    
+    font-size: 3em;
+    line-height: 0.6em;
+    padding-right: 0.0em;
+    text-align: center;
+}
+
+.animacao-girando{
+    animation: girando 1s ease-in-out 0s infinite alternate;
+}
+
+@keyframes girando {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+}
+
+img{
+    height: 200px;
+}
+
+/* Sucolenta */
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main p {
+    font-size: 20px;
+    font-family: 'Licorice' cursive;
+    opacity: 0.8;
+}

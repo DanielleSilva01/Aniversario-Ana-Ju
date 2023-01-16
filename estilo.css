@@ -113,27 +113,3 @@ main p {
     font-family: 'Licorice' cursive;
     opacity: 0.8;
 }
-
- 
-/*familia de cactos */
-
-#entrar img {
-    position: absolute;
-    top: 2%;
-    right: 3%;
-    width: 6%;
-    height: 10%;
-}
-
-img[alt="perfil"] {
-    animation: flutuando .4s ease-in-out 0s infinite alternate;
-}
-
-@keyframes flutuando {
-    from {
-        top: 10;
-    }
-    to {
-        top: 5px;
-    }
-}

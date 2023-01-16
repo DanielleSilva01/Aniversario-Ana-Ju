@@ -13,7 +13,7 @@ nav li{
     padding-left: 20px;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 10%;
+    padding-left: 20%;
     font-size: 3ex;
 }
 
@@ -30,7 +30,6 @@ nav p,
 nav div {
     display: inline-block;
     color: white;
-    padding-left: 2px;
 }
 
 ul {

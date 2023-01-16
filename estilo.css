@@ -121,16 +121,3 @@ main p {
     width: 6%;
     height: 7%;
 }
-
-img[alt="perfil"] {
-    animation: flutuando .4s ease-in-out 0s infinite alternate;
-}
-
-@keyframes flutuando {
-    from {
-        top: 10;
-    }
-    to {
-        top: 10px;
-    }
-}

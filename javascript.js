@@ -1,5 +1,5 @@
 function finalizar(){
-    prompt("Certo, espero que não tenha ficado nenhuma dúvida. Até a próxima, volte sempre! Estarei aqui te esperando :) :)")
+    prompt("Certo, espero que não tenha ficado nenhuma dúvida. Até a próxima, volte sempre! :) :)")
     window.location.href = "https://www.google.com/";
 }
 

@@ -30,6 +30,7 @@ nav p,
 nav div {
     display: inline-block;
     color: white;
+    padding: 2px;
 }
 
 ul {

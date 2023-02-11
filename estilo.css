@@ -113,11 +113,3 @@ main p {
     font-family: 'Licorice' cursive;
     opacity: 0.8;
 }
-
-#entrar img {
-    position: absolute;
-    top: 2%;
-    right: 3%;
-    width: 6%;
-    height: 5%;
-}

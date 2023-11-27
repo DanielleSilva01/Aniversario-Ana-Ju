@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "barlley";
+    src: url('../Fontes/love\ barlley.ttf');
+}
+
+body,
+html {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(160, 99, 240) !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.corner-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+  }
+
+.corner-image2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+  }  
+
+nav {
+    background-color: rgb(120, 37, 228);
+    padding: 3px;
+    margin-bottom: 4%;
+}
+
+nav li,
+nav h2,
+nav div {
+    display: inline-block;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(20, 2, 44);
+    text-decoration: overline;
+}
+
+#NomeSite {
+    font-family: "barlley", monospace;
+    font-size: 170%;
+    padding-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#NomeSite:hover {
+    transform: scale(1.2);
+}
+
+.titulo-2 {
+    font-size: 60px;
+    font-family: "barlley", cursive;
+    text-align: center;
+    margin-bottom: 3%;
+    transition-property: color;
+    transition-duration: 4s;
+}
+
+.titulo-2:hover {
+    color: rgb(254, 254, 255);
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    transition-property: color;
+    transition-duration: 4s;
+}
+
+p:hover{
+    color:rgb(254, 254, 255);
+
+} 
+
+#PS {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}

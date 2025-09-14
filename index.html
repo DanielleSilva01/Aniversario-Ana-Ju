@@ -1,20 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Feliz Aniversário Ana Júlia! </title>
-    <link rel="sortcut icon" href="Imgs/icone.jpeg">
-    <link rel="stylesheet" href="Style/index.css">
-    <link rel="stylesheet" href="Style/resposive.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Danielle Evangelista — Portfólio</title>
+  <link rel="stylesheet" href="Style/index.css">
 </head>
 <body>
-    <main>
-        <img  src="Imgs/Personagem7.jpeg" alt="index">
-       <li> <a id="home" href="home.html">Feliz Aniversário Ana Ju!</a> </li> 
-</main>
+  <header role="banner">
+    <div class="container">
+      <h1 id="site-title">Danielle Evangelista</h1>
+      <nav role="navigation" aria-label="Menu principal">
+        <ul>
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section id="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h2 id="hero-title">Título profissional / Descrição curta</h2>
+        <p>Danielle Evangelista da Silva, tenho 21 anos, faço Curso de SI na Newton Paiva.</p>
+      </div>
+    </section>
+
+    <section id="sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <h2 id="sobre-title">Sobre mim</h2>
+        <p>
+          Formada em Redes de Computadores pelo CEFET-MG. Cursando Sistema de Informações pela Newton Paiva e já fiz curso de React + JS pela Unimy.
+        </p>
+        <h3>Habilidades</h3>
+        <ul>
+          <li>HTML, JavaScript, Java, CSS, React</li>
+        </ul>
+        <h3>Interesses</h3>
+        <p>Desenvolvimento Web</p>
+      </div>
+    </section>
+
+    <section id="projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <h2 id="projetos-title">Projetos</h2>
+        <article class="projeto" aria-labelledby="proj-1-title">
+          <h3 id="proj-1-title">Nome do Projeto 1</h3>
+          <p>Breve descrição do projeto, objetivos e tecnologias utilizadas.</p>
+          <p><a href="#">Link / demonstração</a> | <a href="#">Repositório</a></p>
+        </article>
+
+        <article class="projeto" aria-labelledby="proj-2-title">
+          <h3 id="proj-2-title">Nome do Projeto 2</h3>
+          <p>Breve descrição do projeto.</p>
+          <p><a href="#">Link / demonstração</a> | <a href="#">Repositório</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <h2 id="contato-title">Contato</h2>
+
+        <address>
+          <p>Você pode me encontrar em:</p>
+          <ul>
+            <li>Email: <a href="mailto:danievan2005@gmail.com">danievan2005@gmail.com</a></li>
+            <li>GitHub: 
+              <a href="https://github.com/DanielleSilva01" target="_blank">
+                DanielleSilva01
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p>&copy; Danielle Evangelista. Todos os direitos reservados.</p>
+      <p><a href="#">Política de privacidade</a> | <a href="#">Termos de uso</a></p>
+    </div>
+  </footer>
 </body>
 </html>
